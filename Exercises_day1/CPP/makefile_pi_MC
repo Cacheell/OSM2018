@@ -1,0 +1,12 @@
+all: pi_monte_carlo.cpp.exec
+####################################################################### 
+
+## Example 1
+pi_monte_carlo.cpp.exec : pi_monte_carlo.cpp
+        g++ pi_monte_carlo.cpp -o pi_monte_carlo.cpp.exec
+
+####################################################################### 
+
+clean :
+        rm -f *.exec
+

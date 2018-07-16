@@ -1,0 +1,11 @@
+all: comppi.cpp.exec
+####################################################################### 
+
+## Example 1
+comppi.cpp.exec : comppi.cpp
+        g++ comppi.cpp -o comppi.cpp.exec
+
+####################################################################### 
+        
+clean :
+        rm -f *.exec
